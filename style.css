@@ -1,0 +1,11 @@
+div {
+    background-color: grey;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img {
+    width: 15%;
+}
