@@ -191,3 +191,63 @@ html, body {
     margin: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.about h1 {
+    font-size: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+
+.aboutus {
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutus p {
+    margin: 20px;
+}
+
+.aboutus img {
+    width: 500px;
+}
+
+.why h1 {
+    text-align: center;
+}
+
+.why img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whynot {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.whynot p {
+    color: grey;
+}
+
+.availability {
+    width: 400px;
+    text-align: center;
+}
+
+.work {
+    width: 400px;
+    text-align: center;
+}
+
+.delivery {
+    width: 400px;
+    text-align: center;
+}
