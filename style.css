@@ -2,95 +2,85 @@ html, body {
     margin: 0;
     height: 100%;
 }
-
 .header {
-    overflow: hidden;
-    width: auto;
-    height: auto;
-    background-color: white;
-    padding: 20px 10px;
-    margin: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 4px;
-}
-
-.header p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 22px;
-    line-height: 25px;
-}
-
-.header a {
-    float: left;
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 22px;
-    line-height: 25px;
-}
-
-.header a.logo {
-    border-width: 20px;
-    border-color: white;
-    border-style: solid;
+    justify-content: flex-start;
+    width: 100%;
     height: auto;
 }
-
-.navigation a:hover {
+ 
+.headerlogo {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    color: grey;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 20px;
+}
+ 
+.nav {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+    width: 30%;
+}
+ 
+.nav a {
+    color: grey;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 8px;
+}
+ 
+.nav a:hover {
     background: grey;
     color: whitesmoke;
 }
-
+ 
+.bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F6936;
+    height: 75px;
+}
+ 
+.bar a {
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+ 
 .homebanner {
     background-image: url(https://www.lovethegarden.com/sites/default/files/styles/header_image_xl/public/content/articles/UK_advice-lawn-care-maintenance-lawn-feeding-explained_header.jpg?itok=q4dr1OMk);
     background-size: cover;
     height: 400px;
 }
+ 
+.bannertext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
 .bannertext h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     color: whitesmoke;
 }
 
-.bannertext p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: whitesmoke;
-}
-
-.bannertext {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    font-family: Helvetica;
-    text-align: center;
-}
-
-.bannertext a {
-    display: block;
-    height: 20%;
-    text-align: center;
-    background-color: white;
-    border: 4px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: whitesmoke;
-    color: grey;
-    text-decoration: none;
-    font-size: 20px;
-}
 
 .homeinfo h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
