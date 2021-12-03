@@ -26,6 +26,7 @@ html, body {
     float: right;
     display: flex;
     justify-content: flex-end;
+    justify-content: space-around;
     gap: 40px;
     align-items: center;
     width: 30%;
@@ -203,11 +204,15 @@ html, body {
     margin-bottom: 50px;
 }
 
+.aboutus aside {
+    width: 40%;
+}
+
 .aboutus p {
     margin: 20px;
 }
 
-.aboutus img {
+.aboutus aside img {
     width: 500px;
 }
 
