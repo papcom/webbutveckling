@@ -418,10 +418,14 @@ html, body {
         display: flex;
         justify-content: flex-start;
         width: 100%;
-        height: auto;
+        height: 150px;
+    }
+    .headerlogo a {
+        max-width: 80%;
     }
     .headerlogo img {
         max-width: 100%;
+        align-self: flex-end;
     }
     .headerlogo p {
         display: none;
@@ -432,15 +436,26 @@ html, body {
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-        width: auto;
+        gap: 0;
+        width: 20%;
     }
     .nav a {
         color: grey;
         text-decoration: none;
+        font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
         padding: 10px;
         border-radius: 8px;
+        padding: 5px;
+    }
+    .bar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bar:hover {
+        background-color: #0F6936;
+        color: whitesmoke;
     }
     .aboutus aside {
         display: none;
