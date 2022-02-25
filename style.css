@@ -30,7 +30,8 @@ html, body {
     justify-content: space-around;
     gap: 40px;
     align-items: center;
-    width: 30%;
+    width: 20%;
+    margin-right: 40px;
 }
  
 .nav a {
