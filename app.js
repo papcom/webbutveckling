@@ -1,5 +1,9 @@
-let toggle = document.querySelector(".checkbox");
-
-function transformBackground() {
-    document.body.style.backgroundColor = "#0C0C0C";
+function toggle() {
+    var el = document.getElementById("style1");
+    if (el.href.match("style.css")) {
+        el.href = "styledark.css";
+    }
+    else {
+        el.href = "style.css";
+    }
 }
