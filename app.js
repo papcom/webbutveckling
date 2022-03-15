@@ -1,9 +1,9 @@
 function toggle() {
-    var el = document.getElementById("style1");
-    if (el.href.match("style.css")) {
-        el.href = "styledark.css";
+    var toggle = document.getElementById("style1");
+    if (toggle.href.match("style.css")) {
+        toggle.href = "styledark.css";
     }
     else {
-        el.href = "style.css";
+        toggle.href = "style.css";
     }
 }

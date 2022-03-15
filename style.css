@@ -32,12 +32,23 @@ html, body {
 .switch {
     display: block;
     background-color: #82BC41;
-    color: whitesmoke;
+    color: #82BC41;
     width: 85px;
     height: 30px;
-    font-size: 14px;
+    font-size: 12px;
     border-style: none;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.switch:hover {
+    box-shadow: 0 4px 8px 0 rgba(15, 105, 54, 0.3);
+    transition-duration: 0.4s;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: grey;
+    color: whitesmoke;
 }
 
 .nav {
