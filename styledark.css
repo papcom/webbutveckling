@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     height: 100%;
+    background-color: #1F1F1F;
     transition-duration: 0.4s;
 }
 
@@ -9,7 +10,7 @@ html, body {
     justify-content: flex-start;
     width: 100%;
     height: auto;
-    background-color: transparent;
+    background-color: #101010;
 }
 
 .headerlogo {
@@ -23,16 +24,20 @@ html, body {
     padding: 30px;
 }
 
+.headerlogo img {
+    display: block;
+}
+
 .headerlogo p {
     padding: 100px;
-    color: grey;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 .switch {
     display: block;
-    background-color: #82BC41;
-    color: #82BC41;
+    background-color: #0F6936;
+    color: #0F6936;
     width: 85px;
     height: 30px;
     font-size: 12px;
@@ -43,12 +48,12 @@ html, body {
 }
 
 .switch:hover {
-    box-shadow: 0 4px 8px 0 rgba(15, 105, 54, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2);
     transition-duration: 0.4s;
     border-style: solid;
     border-radius: 4px;
     border-width: 1px;
-    border-color: grey;
+    border-color: whitesmoke;
     color: whitesmoke;
 }
 
@@ -64,7 +69,7 @@ html, body {
 }
  
 .nav a {
-    color: grey;
+    color: whitesmoke;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -91,7 +96,7 @@ html, body {
     background-color: #82BC41;
     color: #0F6936;
 }
- 
+
 .bar a {
     text-align: center;
     text-decoration: none;
@@ -129,7 +134,8 @@ html, body {
 
 .homeinfo h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #82BC41;
+    color: #0F6936;
+    text-shadow: 1px 1px grey;
     text-align: center;
     font-size: 35px;
 }
@@ -137,16 +143,18 @@ html, body {
 .homeinfo h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
+    text-shadow: 1px 1px grey;
     text-align: center;
     font-size: 50px;
 }
 
 .homeinfo p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #101010;
+    color: #909090;
     text-align: center;
     font-size: 30px;
     line-height: 15px;
+    text-shadow: 1px 1px grey;
 }
 
 @media screen and (max-width: 600px) {
@@ -179,6 +187,7 @@ html, body {
     position: relative;
     justify-content: center;
     align-items: baseline;
+    color: whitesmoke;
 }
 
 .homepanel1 {
@@ -234,8 +243,7 @@ html, body {
 
 .palletprice h1 {
     font-size: 30px;
-    color: black;
-    
+    color: whitesmoke;
 }
 
 .pallet img {
@@ -255,6 +263,7 @@ html, body {
 .contact {
     margin: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
 }
 
 .abouttitle {
@@ -262,6 +271,7 @@ html, body {
     text-align: center;
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
 }
 
 .about {
@@ -278,6 +288,7 @@ html, body {
     margin-right: 15%;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: whitesmoke;
 }
 
 .aboutus aside {
@@ -286,6 +297,7 @@ html, body {
 
 .aboutus p {
     margin: 20px;
+    color: grey;
 }
 
 .aboutus aside img {
@@ -294,12 +306,13 @@ html, body {
 
 .why h1 {
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin-bottom: 10%;
 }
 
 .why img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: none;
 }
 
 .whynot {
@@ -307,10 +320,12 @@ html, body {
     justify-content: space-evenly;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+    color: whitesmoke;
 }
 
 .whynot p {
     color: grey;
+    margin-bottom: 10%;
 }
 
 .availability {
@@ -328,7 +343,6 @@ html, body {
     text-align: center;
 }
 
- 
 .products {
     display: flex;
     flex-wrap: wrap;
@@ -345,16 +359,17 @@ html, body {
     margin-bottom: 5%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
     position: relative;
+    color: grey;
 }
 
 .card:hover {
     box-shadow: 0 18px 18px 0 rgba(15, 105, 54, 0.3);
     transition-duration: 0.4s;
-    background-color: whitesmoke;
+    background-color: #0F0F0F;
 }
-
+ 
 .card img{
     max-width: 300px;
 }
@@ -368,7 +383,7 @@ html, body {
 }
 
 .price {
-    color: grey;
+    color: whitesmoke;
     font-size: 22px;
 }
 
@@ -377,7 +392,7 @@ html, body {
     border: none;
     padding: 14px;
     color: white;
-    background-color: #82BC41;
+    background-color: #0F6936;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -389,8 +404,8 @@ html, body {
 }
 
 .button:hover {
-    background-color: whitesmoke;
-    color: #82BC41
+    background-color: lightgrey;
+    color: #0F6936;
 }
 
 .product-page {
@@ -445,6 +460,10 @@ html, body {
  
 .product-info a:hover {
     color: #101010;
+}
+
+.notavailable {
+    color: whitesmoke;
 }
 
 
